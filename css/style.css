@@ -1,0 +1,218 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #202124;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    padding-top: 10px;
+}
+
+header nav .nav{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav a{
+    margin-right: 15px;
+    color: white;
+}
+
+header nav .nav-link{
+    padding: 5px 5px;
+}
+
+header nav .nav .apps-icon{
+    background-image: url(../images/dots-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    
+}
+
+header nav .nav img{
+    border-radius: 50%;
+    margin-left: 5px;
+
+}
+
+main{
+    max-height: calc(100%-160);
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    position: absolute;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 272px;
+    height: 92px;
+}
+
+main .main-input{
+    width: 582.4px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input .main-input-container{
+    width: 583px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 483px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 1px 0;
+}
+
+main .main-input .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: transparent;
+    background-color: #5f6368;
+}
+
+main .main-input .main-input-container .search-icon{
+    background-image: url(../images/search-logo.svg);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: contain;
+    width: 33px;
+    height: 20px;
+    padding-right: 13px;
+}
+
+main .main-input .main-input-container .camera-icon{
+    background-image: url(../images/camera-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-button{
+    width: 530px;
+    margin: 0 auto; 
+}
+
+main  .main-button div{
+    display: inline-block;
+
+}
+
+main .main-button button{
+    height: 36px;
+    background-color: #303134 ;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+
+main .main-button button:hover{
+    border: 1px solid #e8eaed ;
+}
+
+
+
+footer{
+    width: 100%;
+    background: #171717;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer .top-footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    align-items: center;
+    font-size: 15px;
+    background-color: #171717;
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    color: #9aa0a6;
+}
+
+footer .bottom-footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    font-size: 15px;
+    background-color: #171717;
+    /*padding: 15px 30px;*/
+    padding-left: 15px;
+    border-bottom: 1px solid #3c4043;
+    color: #9aa0a6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer .bottom-footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .left{
+    justify-self: left;
+}
+
+footer .right{
+    justify-self: right;
+}
+
+footer .bottom-footer ul li a{
+    margin: 10px;
+    color: #9aa0a6;
+}
+
+
+ 
